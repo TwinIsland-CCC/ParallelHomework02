@@ -111,6 +111,6 @@ int main() {
     cout << "recursionOpt2: " << (tail4 - head) * 1000.0 / freq
          << "ms" << endl;
     //cout << sum;
-    cin >> head;
+    //cin >> head;
     return 0;
 }
