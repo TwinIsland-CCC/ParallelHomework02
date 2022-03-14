@@ -60,7 +60,7 @@ int main() {
         b[i] = a[i];
         //cout << a[i] << " ";
     }
-    cout<<endl;
+    cout<<"问题规模为"<<n<<"，算法的运行次数为"<<lim<<"，使用随机初始值"<<endl;
     int sum = 0;
     long long freq, head, tail1, tail2, tail3, tail4;
     QueryPerformanceFrequency((LARGE_INTEGER*)&freq);
